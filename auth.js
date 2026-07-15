@@ -29,3 +29,11 @@ function iniciarSesion(usuario, contrasena) {
     }
 }
 >>>>>>> 1fe7dede75950863ff29c33a10eb25aa5c60d029
+
+<<<<<<< HEAD
+   if (usuario === "admin_local" && contrasena === "1234") {
+   =======
+   if (usuario === "admin_web" && contrasena === "1234") {
+   >>>>>>> 137bfa2b... (o números raros)
+
+if (usuario === "admin_final" && contrasena === "1234") {
