@@ -4,7 +4,7 @@ function iniciarSesion(usuario, contrasena) {
     if (usuario === "" || contrasena === "") {
         return "Error: Todos los campos son obligatorios.";
     }
-    if (usuario === "admin" && contrasena === "1234") {
+    if (usuario === "admin1234" && contrasena === "1234") {
         return "Acceso concedido.";
     } else {
         return "Error: Credenciales incorrectas.";
